@@ -251,9 +251,13 @@ h2 { margin: 0; font-family: var(--font-display); font-size: clamp(46px, 5.3vw, 
 .footer-label { margin: 4px 0 5px; color: #c3ab7b; font-size: 8px; font-weight: 700; letter-spacing: .18em; }
 .footer-column a, .footer-column p { margin: 0; color: #c4c2b8; font-size: 10px; line-height: 1.8; }
 .footer-column a:hover { color: #fff; }
-.footer-column a.footer-facebook { min-height: 44px; display: inline-flex; align-items: center; gap: 11px; margin-top: 2px; padding: 0 16px; border: 1px solid rgba(195,171,123,.38); border-radius: 999px; color: #f0ece3; font-size: 15px; font-weight: 600; line-height: 1; transition: background .2s ease, border-color .2s ease, transform .2s ease; }
-.footer-column a.footer-facebook span { color: #c3ab7b; font-size: 16px; }
-.footer-column a.footer-facebook:hover { transform: translateY(-2px); border-color: rgba(195,171,123,.72); background: rgba(195,171,123,.1); }
+.footer-column a.footer-facebook { width: min(100%, 230px); min-width: 0; min-height: 62px; display: flex; align-items: center; gap: 10px; margin-top: 2px; padding: 9px 11px; border: 1px solid rgba(195,171,123,.28); border-radius: 15px; background: rgba(255,255,255,.035); color: #f0ece3; transition: background .2s ease, border-color .2s ease, transform .2s ease; }
+.footer-facebook-mark { width: 34px; height: 34px; flex: 0 0 34px; display: grid; place-items: end center; overflow: hidden; border-radius: 10px; background: #4267a9; color: white; font-family: Arial, sans-serif; font-size: 29px; font-weight: 700; line-height: 1.08; }
+.footer-facebook-copy { min-width: 0; display: grid; gap: 4px; }
+.footer-facebook-copy strong { color: #f0ece3; font-size: 12px; font-weight: 600; line-height: 1.2; }
+.footer-facebook-copy small { overflow: hidden; color: #aaa99f; font-size: 10px; line-height: 1.2; text-overflow: ellipsis; white-space: nowrap; }
+.footer-facebook-arrow { margin-left: auto; color: #c3ab7b; font-size: 16px; }
+.footer-column a.footer-facebook:hover { transform: translateY(-2px); border-color: rgba(195,171,123,.62); background: rgba(195,171,123,.09); }
 .footer-areas p { max-width: 200px; }
 .footer-bottom { min-height: 50px; display: flex; justify-content: space-between; align-items: center; gap: 20px; border-top: 1px solid rgba(255,255,255,.12); color: #92948a; font-size: 9px; }
 .footer-bottom a { color: #d3c29f; }
